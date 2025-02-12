@@ -21,7 +21,6 @@ url = "https://cloud.cn2030.com" #URL变量
 proxies = {'https': '127.0.0.1:8888','http':'127.0.0.1:8888'} #测试代理
 mxid = {} # 需要遍历的字典 {"日期":"产品mxid"}
 date_mxid = []  # 接种日期列表 ['04-17','04-18']
-#微信win_lzj
 
 def getZftsl(): # 请求头获取Zftsl字段
     strtime = str(round(time.time() * 100))
